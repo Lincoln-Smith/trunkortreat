@@ -1,5 +1,5 @@
 body {
-  background-color: #2c9b00;
+  background-color: #5e0a50;
   font-family: "Caveat", cursive;
 }
 
@@ -34,4 +34,48 @@ p {
 }
 
 #showcase{ background-color: #ff0000; 
+}
+
+#info1{ 
+  background-color: #963691; 
+  font-size: 50px;
+}
+
+#info{ 
+  font-size: 50px;
+  color:aliceblue;
+}
+
+a{ 
+  font-size: 50px;
+  color:aliceblue;
+}
+
+
+/* Target the specific nav links and make the text white */
+.nav-link {
+  color: white !important;
+}
+
+#trunkortreatNav{
+  font-size: 30px;
+  color:aliceblue;
+}
+
+.card{
+  background-color: rgba(255, 167, 240, 0.541);
+}
+
+li {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Center the card horizontally and vertically */
+.center-card {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Optional: full height of the viewport for vertical centering */
 }

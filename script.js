@@ -1,5 +1,6 @@
 
-// Change for the year 1789
+  
+   // Change for the year 1789
 function change1() {
     document.getElementById("info").innerText = "Candy Crush!"
     document.getElementById("placeholderImage").src = "imgs/trunk1.png";
@@ -39,3 +40,4 @@ function change1() {
     document.getElementById("placeholderImage").src = "imgs/trunk6.png";
 
 }
+
