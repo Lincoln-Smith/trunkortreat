@@ -47,17 +47,17 @@
       <div class="card-body text-center">
         <h2 class="card-title">General Info:</h2>
         <p class="card-text">
-          <ul class="list-unstyled">
-            <li>At the Marlboro High School parking lot</li>
-            <li>From 4pm-5:30pm</li>
-            <li>Come in costume!</li>
-            <li>Over 30 trunks to explore!</li>
-            <li>Ages 12 and under</li>
-            <li>On 10/29</li>
-            <li>Rain date 10/30</li>
-            <li>Snacks available for purchase at event</li>
-            <li>Proceeds go to the American Cancer Society</li>
-          </ul>
+          <dl class="list-unstyled">
+            <dd>At the Marlboro High School parking lot</dd>
+            <dd>From 4pm-5:30pm</dd>
+            <dd>Come in costume!</dd>
+            <dd>Over 30 trunks to explore!</dd>
+            <dd>Ages 12 and under</dd>
+            <dd>On 10/29</dd>
+            <dd>Rain date 10/30</dd>
+            <dd>Snacks available for purchase at event</dd>
+            <dd>Proceeds go to the American Cancer Society</dd>
+          </dl>
         </p>
       </div>
     </div>
@@ -69,11 +69,11 @@
 <script>
 $(document).ready(function(){
   // Initially hide the paragraph
-  $("ul").hide();
+  $("li").hide();
   
   // Toggle the paragraph when the button is clicked
   $("button").click(function(){
-    $("ul").toggle();
+    $("li").toggle();
   });
 });
 </script>
