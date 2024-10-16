@@ -65,7 +65,18 @@
 </div>
 <!-- schedule END -->
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Initially hide the paragraph
+  $("li").hide();
+  
+  // Toggle the paragraph when the button is clicked
+  $("button").click(function(){
+    $("li").toggle();
+  });
+});
+</script>
 
         </main>
         <footer>
