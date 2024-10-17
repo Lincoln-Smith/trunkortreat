@@ -36,7 +36,7 @@ function change1() {
   // Change for the year 2005
   function change6() {
  
-    document.getElementById("info").innerText =   "Christmas"
+    document.getElementById("info").innerText =   "Christmas!"
     document.getElementById("placeholderImage").src = "imgs/trunk6.png";
 
 }
