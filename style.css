@@ -79,3 +79,9 @@ li {
   align-items: center; /* Vertical centering */
   height: 100vh; /* Optional: full height of the viewport for vertical centering */
 }
+
+dd {
+  font-size:20px;
+  font-weight: normal;
+  text-align: center;
+}
